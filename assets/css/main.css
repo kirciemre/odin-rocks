@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+header>h1 {
+    font-size: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.score-board {
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 250px;
+    margin: 20px auto;
+    font-size: 40px;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.badge {
+    background-color: brown;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 9px;
+    color: whitesmoke;
+}
+
+#humanLabel {
+    position: absolute;
+    top: 20px;
+    left: -70px;
+}
+
+#machineLabel {
+    position: absolute;
+    top: 20px;
+    right: -79px;
+}
+
+.message {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.choices {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 20px;
+    border: 5px solid black;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.choice>img {
+    width: 120px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: rosybrown;
+}
+
+.motto {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
